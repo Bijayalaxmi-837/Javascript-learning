@@ -32,8 +32,11 @@ Details();
  console.log("------------------");
 
  function addThreeValue(n1, n2, n3){
+    console.log("given Numbers Are:", n1, n2, n3);
+    
      var result = n1+n2+n3;
-     console.log("addition Of Three is: result");
+     console.log("addition Of Three Numbers is:", result);
      
  }
  addThreeValue(10, 20, 30, 40);
+ addThreeValue("Hello ",  "Good ",  "Morning ");
