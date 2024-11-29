@@ -38,5 +38,5 @@ Details();
      console.log("addition Of Three Numbers is:", result);
      
  }
- addThreeValue(10, 20, 30, 40);
+ addThreeValue(10, 20, 30);
  addThreeValue("Hello ",  "Good ",  "Morning ");
