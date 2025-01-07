@@ -60,8 +60,19 @@ function checksring(str){
 checksring("javascript-E66");
 
 function checkstr(string){
-    let str = "Javascript Language"
-    let value = str.startsWith('java')
+    let str = "javascript Language"
+    let value = str.startsWith('java');
     console.log(value);
     
+    let str2 = "programming Language"
+    let value2 = str2.startsWith('program');
+    console.log(value2);
+
+    let str3 = "web developer"
+    let value3 = str3.startsWith('web');
+    console.log(value3);
+    
 }
+checkstr("java");
+checkstr("program");
+checkstr("web");
