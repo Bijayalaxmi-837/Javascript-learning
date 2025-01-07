@@ -25,10 +25,7 @@ var res = result.indexOf("Good");
 console.log(`index of good is : ${res}`);
 var sub = result.substring(22);
 console.log(` substring starting from index 22 is : ${sub}`);
-var checkStart = trimStr.startswith("Hey");
-var checkEnd = trimStr.endsWith("up");
-console.log(`start With : ${checkStart}`);
-console.log(`End With : ${checkEnd}`);
+
 
 
 }
