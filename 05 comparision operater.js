@@ -1,18 +1,4 @@
-console.log("comparision operater");
-var n1 = 10;
-var n2 = 20;
-var n3 = 10;
-var result = n1 > n2;
-console.log(`greater than operater (>): ${result}`);// false
-console.log("----------------------------------------------");
-var result = n1 > n3;
-console.log(`greater than operater (>): ${result}`);// false
-console.log("----------------------------------------------");
-var result = n1 >= n3;
-console.log(`greater than  equal operater (>=): ${result}`);// true
-console.log("----------------------------------------------");
-var result = n1 < n3;
-console.log(`less than operater (<): ${result}`);// false
+// Assignment 1-
 console.log("----------------------------------------------");
 var result = n1 <= n3;
 console.log(`less than  equal operater (<): ${result}`);// true
@@ -50,12 +36,12 @@ console.log(`given string is: Web Developer Smart and it's length squre is: ${re
 
 function stringOperation(givenString) {
     var Strlength = givenString.length;
-    console.log(`givenstringlength is : ${Strlength }`);
+    console.log(`givenstringlength is : ${Strlength}`);
 
     var words = givenString.split(" ");
     var totalwords = words.length;
     console.log(`given total words is : ${totalwords}`);
-    
+
     var strDivision = Strlength / totalwords;
     console.log(`total length of the string/total number of words  is : ${strDivision}`);
 
@@ -63,6 +49,44 @@ function stringOperation(givenString) {
     console.log(`total length of the string * total number of words  is : ${strmultiply}`);
 }
 stringOperation("I am Angular Developer");
+console.log("--------------------------");
+// Assignment 2-
 
+function graterNumber(n1, n2) {
+    let result = n1 > n2 ? "graterthan" : "lessthan";
+    console.log(result);
+}
+graterNumber(10, 20);
+graterNumber(899, 800);
 
+function isEvenOrOddNum(Num) {
+    let result = (Num % 2 == 0) ? "even" : "odd";
+    console.log(`given number is : ${result}`);
+}
+isEvenOrOddNum(29);
+isEvenOrOddNum(44);
+isEvenOrOddNum(0);
+isEvenOrOddNum(101);
+isEvenOrOddNum(429);
 
+function wordLength(words) {
+    let stringlength = words.length;
+    let result = (stringlength % 2 == 0) ? "Even" : "Odd";
+    console.log(`Length of the words is : ${stringlength}, even or odd length : ${result}`);
+}
+wordLength("Java Script");
+
+function evenoddlength(wrds) {
+    let strlength = wrds.length;
+    let res = (strlength % 2 == 0) ? "Even" : "Odd";
+    console.log(`length of the word is:${strlength}`);
+    console.log(`Even or Odd length : ${res}`);
+}
+evenoddlength("developer");
+function evenoddwordslength(word) {
+    let strwordlength = word.length;
+    console.log(`length of the word is :${strwordlength}`);
+    let value = (strwordlength % 2 == 0) ? "even" : "odd";
+    console.log(`even or odd length :${value}`);
+}
+evenoddwordslength("Google");
