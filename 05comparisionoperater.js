@@ -90,3 +90,10 @@ function evenoddwordslength(word) {
     console.log(`even or odd length :${value}`);
 }
 evenoddwordslength("Google");
+function wordlength(lengthofwords){
+ let strrwordlength = lengthofwords.length;
+ console.log(`length of words is : ${strrwordlength}`);
+ let value = (strrwordlength % 2 == 0);
+ console.log(`even or odd of length is: ${value}`);
+}
+wordLength("bijayalaxmi");
